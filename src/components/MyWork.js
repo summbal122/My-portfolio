@@ -1,6 +1,6 @@
 export default function MyWork(){
   return(
-    <div className="bg-light-pink w-full h-screen">
+    <div className="bg-bg-primary w-full h-screen">
 
     </div>
   )

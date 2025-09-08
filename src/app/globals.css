@@ -1,19 +1,27 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg-primary:#f9fafb
-;
+  --color-bg-primary:#0e1820;
   --color-secondary: #a3004c;
-  --color-text:#525c6b;
+  --color-text:#097969;
   --color-main:#a3004c;
   --color-light-pink: #fde7f3;
+  --color-golden-yellow:#FFB81C;
+  --color-honey:#EBBC4E;
+  --color-dark-green: #05473E;
+
 
 }
 @keyframes slideInOut {
   0% { transform: translateX(100%); }
-  20% { transform: translateX(80%); }    /* slides fully into view */
-  80% { transform: translateX(80%); }    /* pause in the middle */
+  20% { transform: translateX(100%); }    /* slides fully into view */
+  80% { transform: translateX(100%); }    /* pause in the middle */
   100% { transform: translateX(100%); } /* slides out */
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: black !important; 
+  font-weight: 700 ;
 }
 
 .animate-slide-in-out {
