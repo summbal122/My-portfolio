@@ -21,13 +21,14 @@ export default function ProjectCard({ imageSrc, title, description, demoLink, gi
           </div>
         </div>
       </div>
-
-      <div className="px-6 py-3 flex flex-col">
-        <h1 className="text-2xl font-light tracking-wide mb-2 ">{title}</h1>
-        <h2 className="text-sm uppercase tracking-wide text-gray-500 font-semibold mb-1">
+       <div className="px-6 py-4 flex flex-col flex-grow">
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
+        <h4 className="text-xs uppercase tracking-wide text-gray-500 font-medium mb-2">
           Case Study
-        </h2>
-        <p className="text-sm">{description}</p>
+        </h4>
+        <p className="text-sm text-gray-600 leading-relaxed line-clamp-5">
+          {description}
+        </p>
       </div>
     </div>
   );

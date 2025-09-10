@@ -9,7 +9,7 @@ export default function Skills() {
           Technical Skills
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8 text-start">
+        <div className="grid md:grid-cols-3 gap-10 text-start">
           <div className="p-6 rounded-2xl shadow-md bg-gray-50 hover:shadow-lg transition">
             <h3 className="text-2xl font-semibold text-gray-700 mb-5">
               Frontend
@@ -35,6 +35,7 @@ export default function Skills() {
               <SkillButton name="Jest" />
               <SkillButton name="Unit Testing" />
               <SkillButton name="Integration Testing" />
+              <SkillButton name="React Testing Library" />
             </div>
           </div>
 
@@ -47,8 +48,9 @@ export default function Skills() {
               <SkillButton name="Docker" />
               <SkillButton name="Git" />
               <SkillButton name="GitHub" />
-              <SkillButton name="Version Control" />
+              <SkillButton name="Postman" />
               <SkillButton name="Jira" />
+              <SkillButton name="Figma" />
             </div>
           </div>
         </div>

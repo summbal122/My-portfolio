@@ -8,7 +8,7 @@ export default function MainSection() {
       <Header />
       <main  id="home" className="flex flex-col items-center py-20">
         <div className="grid grid-cols-12 gap-8 w-10/12 items-center">
-          <div className="col-span-8 flex items-center gap-7">
+          <div className="col-span-8 flex items-center gap-5">
            <h2 className="text-2xl font-bold font-serif text-gray-400/70 tracking-wider [writing-mode:vertical-rl] rotate-180">
              Frontend Developer
             </h2>
@@ -47,8 +47,7 @@ export default function MainSection() {
               width={280}
               height={280}
               alt="profile"
-              className="rounded-full shadow-lg border-4 border-gray-200"
-            />
+              className="rounded-full shadow-lg border-4 border-gray-200"  />
           </div>
         </div>
       </main>

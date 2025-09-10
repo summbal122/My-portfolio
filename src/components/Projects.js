@@ -2,16 +2,17 @@
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import { FaCode } from "react-icons/fa6";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen bg-bg-primary/80 py-10 flex flex-col items-center">
-       <h1 className="text-4xl md:text-5xl text-white font-bold mb-5 font-serif">
-        My Projects
-      </h1>
+    <section id="projects" className="min-h-screen bg-bg-primary/80 py-10 flex flex-col items-center ">
+       <div className="flex items-center gap-4 mb-4">
+       <span className="text-4xl md:text-5xl text-white font-bold font-serif">My Projects</span>  <FaCode size={35} className="text-golden-yellow mt-2" />
+      </div>
       <p className="text-white max-w-2xl text-center">
         A selection of my recent frontend projects — showcasing React, Next.js,
         Tailwind CSS, API integrations, and animations. Click to explore live demos and source code.
