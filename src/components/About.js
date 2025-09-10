@@ -1,11 +1,11 @@
-import Skills from "./Skills"
+
 export default function About (){
   return (
-    <div className="bg-bg-primary/85 text-white py-30 flex items-center flex-col font-thin">
+    <section id="about"  className="bg-bg-primary/85 text-white py-30 flex items-center flex-col font-thin">
        <div className="w-7/12 space-y-10"> 
-      <div className="text-center text-xl">
+      <div className="text-center text-2xl">
         <h1 className="text-5xl font-serif text-golden-yellow mb-6">About Me</h1>
-        <p className="mb-2">
+        <p className="mb-4">
           I am a passionate frontend developer with a keen eye for design and a love for creating exceptional digital experiences. With expertise in modern web technologies, I transform ideas into beautiful, functional websites and applications.
         </p>
         <p>
@@ -13,10 +13,9 @@ export default function About (){
         </p>
       </div>
 
-      <Skills/>
 
       </div>
 
-    </div>
+    </section>
   )
 }

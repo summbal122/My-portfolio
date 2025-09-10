@@ -6,25 +6,17 @@
   --color-text:#097969;
   --color-main:#a3004c;
   --color-light-pink: #fde7f3;
-  --color-golden-yellow:#FFB81C;
+  --color-golden-yellow:#ecc11b;
   --color-honey:#EBBC4E;
   --color-dark-green: #05473E;
-
-
-}
-@keyframes slideInOut {
-  0% { transform: translateX(100%); }
-  20% { transform: translateX(100%); }    /* slides fully into view */
-  80% { transform: translateX(100%); }    /* pause in the middle */
-  100% { transform: translateX(100%); } /* slides out */
 }
 .swiper-button-prev,
 .swiper-button-next {
-  color: black !important; 
-  font-weight: 700 ;
+  color: white !important;   
+  font-weight: 500;         
+  top: 50%;                    
+  transform: translateY(-50%);  
 }
 
-.animate-slide-in-out {
-  animation: slideInOut 20s ease-in-out infinite;
-}
+
 

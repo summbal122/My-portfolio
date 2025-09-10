@@ -1,41 +1,57 @@
-import Header from "./Header"
+import Header from "./Header";
 import { FaDownload } from "react-icons/fa6";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-export default function MainSection (){
+import Image from "next/image";
+
+export default function MainSection() {
   return (
-     <div className="h-screen">
-        <Header/>
-        <main className="flex flex-col py-25 px-20">
-          <div className="grid grid-cols-12 gap-30">
-            <div className="col-span-6 text-dark-green">
-             <h2 className="text-4xl text-gray-600  font-bold font-serif -mt-4"><span className="text-blue-900">Front</span>end Developer</h2> 
-             <h1 className="text-8xl text-black font-bold font-serif mt-1">
-             Sumbal Ijaz
-             </h1>        
+    <div  className="min-h-screen bg-white text-gray-800">
+      <Header />
+      <main  id="home" className="flex flex-col items-center py-20">
+        <div className="grid grid-cols-12 gap-8 w-10/12 items-center">
+          <div className="col-span-8 flex items-center gap-7">
+           <h2 className="text-2xl font-bold font-serif text-gray-400/70 tracking-wider [writing-mode:vertical-rl] rotate-180">
+             Frontend Developer
+            </h2>
+            <div>
+            <h2 className="text-lg text-gray-600 font-medium mb-2">
+              Hello, I am
+            </h2>
+            <h1 className="text-7xl font-extrabold text-gray-900 font-serif">
+              Sumbal Ijaz
+            </h1>
+            <p className="mt-5 text-lg leading-relaxed text-gray-700 w-11/12">
+              I create responsive, modern, and user-friendly web applications
+              using <span className="font-semibold text-bg-primary">React</span>,{" "}
+              <span className="font-semibold text-bg-primary">Next.js</span>,{" "}
+              <span className="font-semibold text-bg-primary">Redux</span>, and{" "}
+              <span className="font-semibold text-bg-primary">Tailwind CSS</span>.
+              My projects showcase my passion for clean design, performance, and
+              smooth user experience.
+            </p>
+            <div className="mt-8">
+              <a
+                href="/resume.pdf"
+                download
+                className="inline-flex items-center gap-2 bg-golden-yellow text-black px-6 py-3 rounded-2xl shadow-md hover:bg-golden-yellow/80 cursor-pointer transition-all"  >
+                <FaDownload className="text-black size-5" />
+                <span className="font-medium">Download Resume</span>
+              </a>
+              
+            </div>
+            </div>
+    
           </div>
-           <div className="col-span-6 px-4">
-             <p>
-              I create responsive, modern, and user-friendly web applications using React, Next.js, Redux, and Tailwind CSS. My projects showcase my passion for clean design, performance, and smooth user experience.
-              </p>
-            <div className="mt-6 justify-end flex gap-4 text-bg-primary ">
-             <FaGithub size={35} />
-             <FaLinkedin size = {35} />
-           </div>
-         </div>
-       </div>
-  
-        <div className="absolute bottom-0 right-0 p-8">
-          <div className="flex flex-col items-center">
-           <FaDownload className="text-golden-yellow size-10"/>
-           <span className="text-gray-600">Download Resume</span>
+          <div className="col-span-4 flex items-center justify-center gap-6">
+            <Image
+              src="/profilePicture.png"
+              width={280}
+              height={280}
+              alt="profile"
+              className="rounded-full shadow-lg border-4 border-gray-200"
+            />
           </div>
-       </div>
-           {/* <div className="w-2/12">
-             <Image src="/profile.jpeg" width={500} height={100} alt="profile" className="w-full"/>
-           </div> */}
-       </main>
-     </div>
-  )
+        </div>
+      </main>
+    </div>
+  );
 }
-
-
