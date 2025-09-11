@@ -47,7 +47,7 @@ export default function MainSection() {
             </div>
   
           </div>
-          <div className="hidden col-span-4 md:block">
+          <div className="hidden md:col-span-4 md:block">
              <div className=" w-full flex items-center justify-center gap-6">
             <Image  src="/profilePicture.png" width={280} height={280} alt="profile"
              className="rounded-full shadow-lg border-4 border-gray-200"  />

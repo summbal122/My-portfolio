@@ -70,7 +70,7 @@ export default function Footer() {
         </form>
       </div>
       <hr className="mt-6 lg:mt-10 border-gray-300" />
-      <p className="text-center mt-4 lg:mt-6 text-xs lg:text-sm text-gray-500 tracking-wide pb-3">
+      <p className="text-center mt-2 lg:mt-6 text-[10px] md:text-xs lg:text-sm text-gray-500 tracking-wide pb-3">
         © 2025 Sumbal Ijaz — Frontend Developer. All rights reserved.
       </p>
     </footer>
