@@ -17,6 +17,18 @@
   top: 50%;                    
   transform: translateY(-50%);  
 }
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    font-size: 1rem; /* smaller arrows on tablets & mobiles */
+  }
+}
 
+@media (max-width: 480px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    font-size: 0.8rem; /* extra small on very small screens */
+  }
+}
 
 

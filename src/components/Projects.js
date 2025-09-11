@@ -9,20 +9,34 @@ import "swiper/css/pagination";
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen bg-bg-primary/80 py-8 flex flex-col items-center ">
-       <div className="flex items-center gap-4 mb-4">
-       <span className="text-4xl md:text-4xl text-white font-bold font-serif">My Projects</span>  <FaCode size={35} className="text-golden-yellow mt-2" />
+    <section id="projects" className="min-h-screen bg-bg-primary/80 py-8 px-2 lg:px-0 flex flex-col items-center ">
+       <div className="flex items-center gap-4 mb-1 lg:mb-4">
+       <span className="text-2xl md:text-4xl text-white font-bold font-serif">My Projects</span>  
+       <FaCode size={35} className="text-golden-yellow lg:mt-2 w-6 lg:w-auto" />
       </div>
-      <p className="text-white max-w-2xl text-center">
+      <p className="text-white max-w-2xl text-sm md:text-md text-center">
        Here&apos;s a showcase of projects where I combined design, performance, and functionality.
        Discover live websites and review the code behind them with a single click.
       </p>
 
-      <div className="w-11/12 relative">
-       <Swiper modules={[Navigation, Pagination]}  spaceBetween={0}
-        slidesPerView={3} navigation pagination={{ clickable: true }}
-        loop>
-          <SwiperSlide className="p-10">
+      <div className="w-full lg:w-11/12 relative">
+       <Swiper
+  modules={[Navigation, Pagination]} spaceBetween={20}
+  slidesPerView={3}
+  navigation
+  pagination={{ clickable: true }}  loop
+  breakpoints={{
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3, 
+    },
+  }}>
+          <SwiperSlide className="-mt-4 lg:mt-0 p-10">
             <ProjectCard imageSrc="/image.png"
             title="Recipe Finder"
             demoLink="https://recipefinder-web-app.web.app/" 
@@ -30,28 +44,28 @@ export default function Projects() {
             description="Recipe Finder is a responsive web app to explore global recipes using TheMealDB API. Built with React, Redux Toolkit, and Tailwind CSS, it features recipe search, category browsing, detailed instructions, smooth Motion animations, and is deployed on Firebase with Jest-tested reliability." />
           </SwiperSlide>
 
-          <SwiperSlide className="p-10">
+          <SwiperSlide className="-mt-4 lg:mt-0 p-10">
             <ProjectCard imageSrc="/image3.png" title="Netflix-GPT" demoLink=" https://netflixgpt-f6131.web.app/" 
               githubLink="https://github.com/summbal122/Netflix-GPT.git"
               description="Netflix GPT is a movie recommendation app that mimics the Netflix UI and delivers AI-powered suggestions using the TMDB API. Built with React, Redux Toolkit, and Tailwind CSS, it features Firebase authentication, GPT-powered search, and a fully responsive design for a seamless streaming-like experience."
             />
           </SwiperSlide>
 
-          <SwiperSlide className="p-10">
+          <SwiperSlide className="-mt-4 lg:mt-0 p-10">
             <ProjectCard imageSrc="/image4.png" title="Amazon Clone" demoLink="https://fir-d25e5.web.app/" 
               githubLink="https://github.com/summbal122/Amazon.git"
               description="Amazon Clone is e-commerce web app built with React, Redux Toolkit, and Tailwind CSS. It features dynamic routing, category-based product rendering with the DummyJSON API, and a functional shopping cart with persistence via localStorage. It includes custom shimmer loading effects and Jest-tested reliability."
             />
           </SwiperSlide>
 
-          <SwiperSlide className="p-10">
+          <SwiperSlide className="-mt-4 lg:mt-0 p-10">
             <ProjectCard imageSrc="/image2.png" title="YouTube Clone" demoLink="https://fir-ad80a.web.app/" 
               githubLink="https://github.com/summbal122/Youtube.git"
               description="YouTube Clone is a responsive video streaming app. It integrates the YouTube Data API v3 to display trending videos, handle debounced search queries, and optimize performance with Redux-based LRU caching. The app includes dynamic routing, a simulated live chat, and delivers a smooth user experience."
             />
           </SwiperSlide>
 
-          <SwiperSlide className="p-10">
+          <SwiperSlide className="-mt-4 lg:mt-0 p-10">
             <ProjectCard
               imageSrc="/image7.png"
               title="Food Ordering App"
@@ -61,7 +75,7 @@ export default function Projects() {
             />
           </SwiperSlide>
 
-          <SwiperSlide className="p-10">
+          <SwiperSlide className="-mt-4 lg:mt-0 p-10">
             <ProjectCard
               imageSrc="/image5.png"
               title="Dessert Shop"
@@ -71,7 +85,7 @@ export default function Projects() {
             />
           </SwiperSlide>
 
-          <SwiperSlide className="p-10">
+          <SwiperSlide className="-mt-4 lg:mt-0 p-10">
             <ProjectCard
               imageSrc="/image6.png"
               title="Destino"

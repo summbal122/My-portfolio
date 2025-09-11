@@ -1,10 +1,10 @@
 
 export default function About (){
   return (
-    <section id="about"  className="bg-bg-primary/85 text-white py-20 flex items-center flex-col font-thin">
-       <div className="w-7/12 space-y-10"> 
-      <div className="text-center text-xl">
-        <h1 className="text-5xl font-serif text-golden-yellow mb-4">About Me</h1>
+    <section id="about"  className="bg-bg-primary/85 text-white py-8 px-4 lg:px-0 lg:py-20 flex items-center flex-col font-thin">
+       <div className="lg:w-7/12 space-y-10"> 
+      <div className="text-center text-sm lg:text-xl">
+        <h1 className="text-3xl lg:text-5xl font-serif text-golden-yellow mb-2 lg:mb-4">About Me</h1>
         <p className="mb-4">
           I am a passionate Frontend Developer specializing in building dynamic, user-centric, and scalable web applications. With expertise in React.js, Next.js, Redux, and Tailwind CSS, I create interfaces that are not only responsive and accessible but also optimized for performance and cross-browser compatibility.
         </p>
