@@ -21,7 +21,7 @@ export default function ProjectCard({ imageSrc, title, description, demoLink, gi
           </div>
         </div>
       </div>
-       <div className="px-3 md::px-6 py-3 md:py-4 flex flex-col flex-grow">
+       <div className="px-3 md:px-6 py-3 md:py-4 flex flex-col flex-grow">
         <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
         <h4 className="text-xs uppercase tracking-wide text-gray-500 font-medium mb-2">
           Case Study

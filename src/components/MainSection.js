@@ -4,24 +4,20 @@ import Image from "next/image";
 
 export default function MainSection() {
   return (
-    <div  className="min-h-screen bg-white text-gray-800">
+    <div  className="lg:min-h-screen bg-white text-gray-800">
       <Header />
-      <main  id="home" className="flex flex-col items-center py-4 lg:py-20">
-        <div className="lg:grid lg:grid-cols-12 gap-8 lg:w-10/12 lg:items-center">
+      <main  id="home" className="flex flex-col lg:items-center py-4 md:py-20">
+        <div className="md:grid md:grid-cols-12 gap-8 lg:w-10/12 lg:items-center">
 
-           <div className="block md:hidden w-full">
-             <div className="flex items-center justify-center gap-3">
-           {/* <h2 className="text-xl font-bold font-serif text-gray-400/70 tracking-wider [writing-mode:vertical-rl] rotate-180">
-             Frontend Developer
-            </h2> */}
+           <div className="block md:hidden">
+             <div className="flex md:items-center justify-center gap-3">
             <Image  src="/profilePicture.png" width={280} height={280} alt="profile"
              className="rounded-full shadow-lg border-4 border-gray-200 w-40"  />
              
           </div>
-
           </div>
-          <div className=" p-5 lg:p-0 lg:col-span-8 flex items-center gap-5">
-           <h2 className="hidden md:block text-2xl font-bold font-serif text-gray-400/70 tracking-wider [writing-mode:vertical-rl] rotate-180">
+          <div className="p-5 lg:p-0 md:col-span-8 flex items-center gap-3 xl:gap-5">
+           <h2 className="hidden md:block text-lg xl:text-2xl font-bold font-serif text-gray-400/70 tracking-wider [writing-mode:vertical-rl] rotate-180">
              Frontend Developer
             </h2>
             <div>
@@ -40,14 +36,13 @@ export default function MainSection() {
               <a href="/resume.pdf" download
                 className="inline-flex items-center gap-2 bg-golden-yellow text-black px-6 py-3 rounded-2xl shadow-md hover:bg-golden-yellow/80 cursor-pointer transition-all"  >
                 <FaDownload className="text-black size-5" />
-               <span className="text-sm lg:text-md font-medium">Download Resume</span>
+               <span className="text-sm lg:text-sm font-medium">Download Resume</span>
               </a>
               
             </div>
             </div>
-  
           </div>
-          <div className="hidden md:col-span-4 md:block">
+          <div className="hidden md:col-span-4 md:block p-2 lg:p-0">
              <div className=" w-full flex items-center justify-center gap-6">
             <Image  src="/profilePicture.png" width={280} height={280} alt="profile"
              className="rounded-full shadow-lg border-4 border-gray-200"  />

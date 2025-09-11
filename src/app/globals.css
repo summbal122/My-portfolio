@@ -10,25 +10,30 @@
   --color-honey:#EBBC4E;
   --color-dark-green: #05473E;
 }
-.swiper-button-prev,
-.swiper-button-next {
-  color: white !important;   
-  font-weight: 500;         
-  top: 50%;                    
-  transform: translateY(-50%);  
+/* Base styles */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: white !important;  /* default color */
+  font-weight: 500;
 }
-@media (max-width: 768px) {
-  .swiper-button-prev,
-  .swiper-button-next {
-    font-size: 1rem; /* smaller arrows on tablets & mobiles */
+
+/* Change to black on medium and smaller */
+@media (max-width: 1024px) {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: black !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
   }
 }
 
-@media (max-width: 480px) {
-  .swiper-button-prev,
-  .swiper-button-next {
-    font-size: 0.8rem; /* extra small on very small screens */
+@media (max-width: 640px) {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
   }
 }
+
 
 
