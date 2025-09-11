@@ -1,15 +1,15 @@
 
 export default function About (){
   return (
-    <section id="about"  className="bg-bg-primary/85 text-white py-30 flex items-center flex-col font-thin">
+    <section id="about"  className="bg-bg-primary/85 text-white py-20 flex items-center flex-col font-thin">
        <div className="w-7/12 space-y-10"> 
-      <div className="text-center text-2xl">
-        <h1 className="text-5xl font-serif text-golden-yellow mb-6">About Me</h1>
+      <div className="text-center text-xl">
+        <h1 className="text-5xl font-serif text-golden-yellow mb-4">About Me</h1>
         <p className="mb-4">
-          I am a passionate frontend developer with a keen eye for design and a love for creating exceptional digital experiences. With expertise in modern web technologies, I transform ideas into beautiful, functional websites and applications.
+          I am a passionate Frontend Developer specializing in building dynamic, user-centric, and scalable web applications. With expertise in React.js, Next.js, Redux, and Tailwind CSS, I create interfaces that are not only responsive and accessible but also optimized for performance and cross-browser compatibility.
         </p>
         <p>
-         My journey in web development started with curiosity and has evolved into a professional career focused on delivering high-quality, user-centered solutions. I believe in writing clean code, following best practices, and staying updated with the latest industry trends.
+        My experience spans from developing B2B marketplaces and multilingual platforms to designing admin dashboards, authentication flows, and real-time integrations. I am well-versed in testing frameworks (Jest, RTL), agile workflows, and deployment tools like Vercel and Firebase, ensuring both reliability and scalability. Beyond coding, I bring an eye for UI/UX design, animations, and prototypes with Figma and Framer Motion, enabling me to deliver solutions that merge aesthetics with technical excellence.
         </p>
       </div>
 

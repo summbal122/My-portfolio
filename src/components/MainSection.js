@@ -13,20 +13,16 @@ export default function MainSection() {
              Frontend Developer
             </h2>
             <div>
-            <h2 className="text-lg text-gray-600 font-medium mb-2">
+            <h2 className="text-lg text-gray-600 font-medium ">
               Hello, I am
             </h2>
             <h1 className="text-7xl font-extrabold text-gray-900 font-serif">
               Sumbal Ijaz
             </h1>
             <p className="mt-5 text-lg leading-relaxed text-gray-700 w-11/12">
-              I create responsive, modern, and user-friendly web applications
-              using <span className="font-semibold text-bg-primary">React</span>,{" "}
-              <span className="font-semibold text-bg-primary">Next.js</span>,{" "}
-              <span className="font-semibold text-bg-primary">Redux</span>, and{" "}
-              <span className="font-semibold text-bg-primary">Tailwind CSS</span>.
-              My projects showcase my passion for clean design, performance, and
-              smooth user experience.
+              I&apos;m a Frontend Developer who loves building websites that look great and work fast.
+         With skills in React, Next.js, and Tailwind CSS, I turn ideas into smooth user experiences.
+        My focus is on making clean, responsive, and user-friendly apps.
             </p>
             <div className="mt-8">
               <a

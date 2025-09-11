@@ -32,9 +32,9 @@ export default function Skills() {
               Testing
             </h3>
             <div className="flex flex-wrap gap-3">
-              <SkillButton name="Jest" />
               <SkillButton name="Unit Testing" />
               <SkillButton name="Integration Testing" />
+               <SkillButton name="Jest" />
               <SkillButton name="React Testing Library" />
             </div>
           </div>
@@ -47,9 +47,9 @@ export default function Skills() {
             <div className="flex flex-wrap gap-3">
               <SkillButton name="Docker" />
               <SkillButton name="Git" />
+              <SkillButton name="Jira" />
               <SkillButton name="GitHub" />
               <SkillButton name="Postman" />
-              <SkillButton name="Jira" />
               <SkillButton name="Figma" />
             </div>
           </div>

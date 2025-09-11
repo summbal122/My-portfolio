@@ -9,13 +9,13 @@ import "swiper/css/pagination";
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen bg-bg-primary/80 py-10 flex flex-col items-center ">
+    <section id="projects" className="min-h-screen bg-bg-primary/80 py-8 flex flex-col items-center ">
        <div className="flex items-center gap-4 mb-4">
-       <span className="text-4xl md:text-5xl text-white font-bold font-serif">My Projects</span>  <FaCode size={35} className="text-golden-yellow mt-2" />
+       <span className="text-4xl md:text-4xl text-white font-bold font-serif">My Projects</span>  <FaCode size={35} className="text-golden-yellow mt-2" />
       </div>
       <p className="text-white max-w-2xl text-center">
-        A selection of my recent frontend projects — showcasing React, Next.js,
-        Tailwind CSS, API integrations, and animations. Click to explore live demos and source code.
+       Here&apos;s a showcase of projects where I combined design, performance, and functionality.
+       Discover live websites and review the code behind them with a single click.
       </p>
 
       <div className="w-11/12 relative">
@@ -75,8 +75,8 @@ export default function Projects() {
             <ProjectCard
               imageSrc="/image6.png"
               title="Destino"
-              demoLink="https://github.com/summbal122/Destino.git" 
-              githubLink="https://summbal122.github.io/Destino/"
+              githubLink="https://github.com/summbal122/Destino.git" 
+              demoLink="https://summbal122.github.io/Destino/"
               description="Destino is a responsive travel landing page built with Tailwind CSS and deployed on GitHub Pages. It showcases a modern hero section, travel plans with hover effects, and a smooth FAQ accordion, all wrapped in a clean single-page layout. The site emphasizes responsive design, elegant UI, and seamless navigation."
             />
           </SwiperSlide>

@@ -9,7 +9,7 @@ export default function Header (){
       <li className="hover:cursor-pointer hover:text-golden-yellow"><Link smooth={true} duration={500} spy={true}to="about" >About</Link></li>
       <li className="hover:cursor-pointer hover:text-golden-yellow"><Link smooth={true} duration={500} spy={true} to="projects">Projects</Link></li>
       <li className="hover:cursor-pointer hover:text-golden-yellow"><Link smooth={true} duration={500} spy={true} to="skills">Skills</Link></li>
-      <li className="hover:cursor-pointer hover:text-golden-yellow"><Link smooth={true} duration={500} spy={true} to="contact">Contact</Link></li>
+      {/* <li className="hover:cursor-pointer hover:text-golden-yellow"><Link smooth={true} duration={500} spy={true} to="contact">Contact</Link></li> */}
      </ul>
      <button className="bg-bg-primary text-white px-4 py-2 rounded-lg hover:cursor-pointer hover:bg-bg-primary/90"><Link smooth={true} duration={500} spy={true} to="contact">Get In Touch</Link></button>
 

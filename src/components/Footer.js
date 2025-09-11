@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="w-11/12 md:w-9/12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-20">
         
         <div className="md:col-span-6 flex flex-col justify-center">
-          <h1 className="text-3xl font-serif text-black font-bold mb-4">Sumbal Ijaz</h1>
+          <h1 className="text-3xl font-serif text-black font-bold ">Sumbal Ijaz</h1>
+          <span className="text-golden-yellow font-medium tracking-wide mb-3">Get in Touch</span>
           <p className="text-gray-600 text-sm md:text-base mb-6 leading-relaxed">
-            Frontend Developer passionate about building interactive, accessible, and 
-            user-friendly web applications with modern technologies.
+        As a Frontend Developer, I love creating modern, responsive, and user-friendly web apps. Feel free to contact me through email, phone, LinkedIn, GitHub, or simply drop a message using the form.
           </p>
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base">
@@ -48,19 +48,19 @@ export default function Footer() {
           </h2>
 
           <div className="flex flex-col md:flex-row gap-4">
-            <input className="border w-full py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
+            <input className="border border-gray-200 w-full py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
               placeholder="First Name"
               required/>
-            <input className="border w-full py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none" placeholder="Last Name"
+            <input className="border border-gray-200 w-full py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none" placeholder="Last Name"
               required />
           </div>
 
-          <input type="email" className="border py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
+          <input type="email" className="border border-gray-200 py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
             placeholder="Your Email"
             required/>
 
           <textarea
-            className="border py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
+            className="border border-gray-200 py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
             rows={5}
             placeholder="Your Message..."
             required></textarea>

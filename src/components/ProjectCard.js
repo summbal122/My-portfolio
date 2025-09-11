@@ -8,7 +8,7 @@ export default function ProjectCard({ imageSrc, title, description, demoLink, gi
       <div className="relative h-60 overflow-hidden group">
         <Image src={imageSrc} width={600} height={200} alt="project"
          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex justify-center items-center">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex justify-center items-center">
           <div className="flex gap-4">
             <a href={demoLink} target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-2 bg-white  text-black px-4 py-2 rounded-full shadow-lg hover:scale-105 transition hover:cursor-pointer" >
