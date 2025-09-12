@@ -7,12 +7,12 @@ export default function MainSection() {
     <div  className="lg:min-h-screen bg-white text-gray-800">
       <Header />
       <main  id="home" className="flex flex-col lg:items-center py-4 md:py-20">
-        <div className="md:grid md:grid-cols-12 gap-8 lg:w-10/12 lg:items-center">
+        <div className="md:grid md:grid-cols-12 gap-8 lg:w-11/12 xl:w-10/12 lg:items-center">
 
            <div className="block md:hidden">
              <div className="flex md:items-center justify-center gap-3">
             <Image  src="/profilePicture.png" width={280} height={280} alt="profile"
-             className="rounded-full shadow-lg border-4 border-gray-200 w-40"  />
+             className="rounded-full shadow-lg border-4 border-gray-200 w-38 h-50"  />
              
           </div>
           </div>
@@ -24,10 +24,10 @@ export default function MainSection() {
             <h2 className="lg:text-lg text-gray-600 font-medium ">
               Hello, I am
             </h2>
-            <h1 className="text-3xl lg:text-7xl font-extrabold text-gray-900 font-serif">
+            <h1 className="text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-extrabold text-gray-900 font-serif">
               Sumbal Ijaz
             </h1>
-            <p className="mt-2 lg:mt-5 text-sm lg:text-lg leading-relaxed text-gray-700 lg:w-11/12">
+            <p className="mt-1 md:mt-2 xl:mt-5 text-sm lg:text-lg leading-relaxed text-gray-700 lg:w-11/12">
               I&apos;m a Frontend Developer who loves building websites that look great and work fast.
             With skills in React, Next.js, and Tailwind CSS, I turn ideas into smooth user experiences.
             My focus is on making clean, responsive, and user-friendly apps.

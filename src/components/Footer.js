@@ -3,8 +3,8 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="w-full bg-gradient-to-r from-gray-50 to-gray-100 text-black pt-6 lg:pt-10">
-      <div className="w-11/12 lg:w-9/12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 lg:gap-20">
+    <footer id="contact" className="w-full bg-gradient-to-r from-gray-50 to-gray-100 text-black pt-6 xl:pt-10">
+      <div className="w-11/12 xl:w-9/12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 lg:gap-20">
         
         <div className="md:col-span-6 flex flex-col justify-center">
           <h1 className="text-2xl lg:text-3xl font-serif text-black font-bold ">Sumbal Ijaz</h1>
@@ -42,26 +42,27 @@ export default function Footer() {
           </div>
         </div>
 
-        <form className="md:col-span-6 flex flex-col gap-2 lg:gap-4 bg-white p-4 lg:p-6 rounded-2xl lg:shadow-xl border border-gray-200">
+        <form action="https://formspree.io/f/movnbdja" method="POST" className="md:col-span-6 flex flex-col gap-2 lg:gap-4 bg-white p-4 lg:p-6 rounded-2xl lg:shadow-xl border border-gray-200">
           <h2 className="text-xl lg:text-2xl font-semibold font-serif text-center mb-1 lg:mb-2 text-gray-800">
             Contact Me
           </h2>
 
-          <div className="flex flex-col md:flex-row gap-2 lg:gap-4">
+          <div className="flex flex-col md:flex-row gap-2 lg:gap-4 text-sm lg:text-md">
             <input className="border border-gray-200 w-full py-2 lg:py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
-              placeholder="First Name"
+              placeholder="First Name" name="firstName"
               required/>
-            <input className="border border-gray-200 w-full py-2 lg:py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none" placeholder="Last Name"
+            <input className="border border-gray-200 w-full py-2 lg:py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none" 
+            placeholder="Last Name" name="lastName"
               required />
           </div>
 
-          <input type="email" className="border border-gray-200 py-2 lg:py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
-            placeholder="Your Email"
+          <input type="email" className="border border-gray-200 text-sm lg:text-md py-2 lg:py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
+            placeholder="Your Email" name="email"
             required/>
 
           <textarea
-            className="border border-gray-200 py-2 lg:py-3 px-4 rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
-            rows={5} placeholder="Your Message..."
+            className="border border-gray-200 py-2 lg:py-3 px-4 text-sm lg:text-md rounded-lg focus:ring-1 focus:ring-black/70 outline-none"
+            rows={5} placeholder="Your Message..." name="message"
             required></textarea>
 
           <button type="submit" className="bg-golden-yellow text-sm lg:text-md text-black font-medium px-6 py-2 md:py-3 rounded-lg shadow-md hover:bg-golden-yellow/80 transition duration-300 hover:cursor-pointer">

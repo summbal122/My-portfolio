@@ -1,7 +1,7 @@
 
 export default function About (){
   return (
-    <section id="about"  className="bg-bg-primary/85 text-white py-8 px-4 lg:px-0 lg:py-18 flex items-center flex-col font-thin">
+    <section id="about"  className="bg-bg-primary/85 text-white py-8 md:py-10 md:px-6 px-4 lg:px-0 lg:py-14 xl:py-18 flex items-center flex-col font-thin">
        <div className="lg:w-7/12 space-y-10"> 
       <div className="text-center text-sm md:text-lg lg:text-xl">
         <h1 className="text-3xl lg:text-5xl font-serif text-golden-yellow mb-2 lg:mb-5">About Me</h1>
