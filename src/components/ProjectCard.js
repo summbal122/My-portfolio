@@ -3,7 +3,7 @@ import { ExternalLink, Github } from "lucide-react";
 
 export default function ProjectCard({ imageSrc, title, description, demoLink, githubLink }) {
   return (
-    <div className="rounded-3xl bg-white backdrop-blur-md h-110 md:h-120 overflow-hidden flex flex-col   hover:shadow-md transition transform hover:scale-[1.03] hover:-translate-y-1">
+    <div className="rounded-3xl bg-white backdrop-blur-md h-105 md:h-120 overflow-hidden flex flex-col   hover:shadow-md transition transform hover:scale-[1.03] hover:-translate-y-1">
   
       <div className="relative h-40 md:h-60 overflow-hidden group">
         <Image src={imageSrc} width={600} height={200} alt="project"

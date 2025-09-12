@@ -13,7 +13,7 @@ export default function Footer() {
         As a Frontend Developer, I love creating modern, responsive, and user-friendly web apps. Feel free to contact me through email, phone, LinkedIn, GitHub, or simply drop a message using the form.
           </p>
 
-          <div className="space-y-4 text-gray-700 text-sm md:text-base">
+          <div className="space-y-2 xl:space-y-3 text-gray-700 text-sm md:text-base">
             <div className="flex items-center gap-3">
               <MdEmail size={22} className="text-gray-500" />
               <a href="mailto:sumbalijaz207@gmail.com" className="hover:underline">

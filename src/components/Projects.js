@@ -9,12 +9,12 @@ import "swiper/css/pagination";
 
 export default function Projects() {
   return (
-    <section id="projects" className=" bg-bg-primary/80  py-6  lg:py-8 px-2 lg:px-0 flex flex-col items-center ">
+    <section id="projects" className=" bg-bg-primary/80 py-6  lg:py-8 px-2 lg:px-0 flex flex-col items-center ">
        <div className="flex items-center gap-4 mb-1 lg:mb-3">
        <span className="text-2xl lg:text-4xl text-white font-bold font-serif">My Projects</span>  
        <FaCode size={35} className="text-golden-yellow lg:mt-2 w-6 lg:w-auto" />
       </div>
-      <p className="text-white   md:w-9/12 lg:w-7/12 xl:w-6/12 text-sm lg:text-md text-center leading-4.5 lg:leading-normal">
+      <p className="text-white w-11/12   md:w-9/12 lg:w-7/12 xl:w-6/12 text-xs md:text-sm lg:text-md text-center leading-4.5 lg:leading-normal">
        Here&apos;s a showcase of projects where I combined design, performance, and functionality.
        Discover live websites and review the code behind them with a single click.
       </p>
