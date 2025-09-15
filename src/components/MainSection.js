@@ -33,7 +33,7 @@ export default function MainSection() {
             My focus is on making clean, responsive, and user-friendly apps.
             </p>
             <div className="mt-3 lg:mt-8">
-              <a href="/Resume.pdf" download
+              <a href="/resume.pdf" download
                 className="inline-flex items-center gap-2 bg-golden-yellow text-black px-6 py-3 rounded-2xl shadow-md hover:bg-golden-yellow/80 cursor-pointer transition-all"  >
                 <FaDownload className="text-black size-5" />
                <span className="text-sm lg:text-sm font-medium">Download Resume</span>
