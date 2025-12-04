@@ -46,7 +46,7 @@ export default function Skills() {
             </h3>
             <div className="flex flex-wrap gap-3">
               {/* <SkillButton name="Docker" /> */}
-              {/* <SkillButton name="Git" /> */}
+              <SkillButton name="Git" />
               <SkillButton name="Jira" />
               <SkillButton name="GitHub" />
               {/* <SkillButton name="Postman" /> */}
